@@ -1,0 +1,105 @@
+.jobs-Conatianer {
+  background-color: #000000;
+  height: auto;
+}
+
+.mainDetails-container {
+  padding: 20px 50px 0 50px;
+}
+
+.searchInput {
+  width: 500px;
+  height: 45px;
+  border-width: 1px 0 1px 1px;
+  outline: none;
+  background-color: #000000;
+  color: #f8fafc;
+  padding: 10px;
+  font-size: 15px;
+  font-family: roboto;
+  font-weight: 600;
+  border-color: #f8fafc;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.searchForm-container {
+  display: flex;
+  align-items: center;
+}
+
+.btn-search {
+  height: 45px;
+  cursor: pointer;
+  width: 50px;
+  background-color: #272727;
+  border-width: 1px 1px 1px 0px;
+  border-color: #f8fafc;
+  border-style: solid;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.searchicon {
+  font-size: 20px;
+  color: #f8fafc;
+}
+
+.mainDetails-container {
+  display: flex;
+  gap: 50px;
+}
+
+.loader-container {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.failed {
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  width: 1200px;
+}
+
+.loader-container2 {
+  width: 1200px;
+}
+
+.NotfoundJobs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  color: white;
+}
+.searchForm-container-sm {
+  display: none;
+}
+@media screen and (max-width: 567px) {
+  .mainDetails-container {
+    flex-direction: column;
+    padding: 20px 20px 0 20px;
+  }
+  .searchForm-container {
+    display: none;
+  }
+  .searchForm-container-sm {
+    display: block flex;
+    margin-bottom: 20px;
+  }
+  .searchInput {
+    width: 100%;
+  }
+  .NotfoundJobs {
+    width: auto;
+  }
+  .NotfoundJobs img {
+    height: 230px;
+    width: 300px;
+  }
+}

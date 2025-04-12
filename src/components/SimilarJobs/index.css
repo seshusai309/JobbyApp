@@ -1,0 +1,47 @@
+.similarjobsCard {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  line-height: 0.5px;
+}
+
+.sub-class {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.similarjobsCard img {
+  height: 70px;
+  width: 70px;
+}
+
+.dodo {
+  width: 400px;
+  height: 450px;
+  background-color: #272727;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+  .dodo {
+    width: 100%;
+    height: max-content;
+    padding: 30px;
+    margin-bottom: 20px;
+  }
+  .similarjobsCard img {
+    height: 50px;
+    width: 50px;
+  }
+  .similarjobsCard h1 {
+    font-size: 18px;
+  }
+  .every_desc {
+    font-size: 20px;
+  }
+}

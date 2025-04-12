@@ -1,0 +1,31 @@
+.filterContainer {
+  height: 500px;
+  width: 350px;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  font-family: Roboto;
+  font-size: 16px;
+}
+
+li {
+  padding: 7px;
+}
+
+.hrLine {
+  width: 300px;
+}
+
+@media screen and (max-width: 567px) {
+  .hrLine {
+    width: 100%;
+  }
+  .types-heading {
+    font-size: 20px;
+  }
+  .filterContainer {
+    width: 100%;
+  }
+}

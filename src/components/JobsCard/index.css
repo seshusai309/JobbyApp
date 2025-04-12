@@ -1,0 +1,106 @@
+.jobsDetailContainer {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.jobsDetailContainer img {
+  height: 70px;
+  width: 70px;
+}
+.starImg {
+  color: #fbbf24;
+}
+
+.sub1 {
+  display: flex;
+  flex-direction: column;
+  line-height: 2px;
+}
+
+.starDiv {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.locationIcn {
+  color: #f1f5f9;
+  font-size: 30px;
+}
+
+.main {
+  height: 400px;
+  width: 100%;
+  background-color: #272727;
+  margin: 40px 0 40px 0;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.tada {
+  display: flex;
+}
+
+.icon-tada {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.main {
+  color: white;
+  font-family: Roboto;
+}
+
+.sasa {
+  display: flex;
+  justify-content: space-between;
+}
+
+.line {
+  border: 1px solid #475569;
+}
+
+.jobpara {
+  font-weight: 500;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 576px) {
+  .jobsDetailContainer img {
+    height: 40px;
+    width: 40px;
+  }
+  .main {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  .sub1-sm {
+    font-size: 14px;
+  }
+  .starImg {
+    font-size: 8px;
+  }
+  .locationIcn {
+    font-size: 15px;
+  }
+  .icon-tada-para {
+    font-size: 12px;
+  }
+  .package-sm {
+    font-size: 12px;
+  }
+  .tada {
+    gap: 10px;
+  }
+  .desc-sm {
+    font-size: 12px;
+  }
+  .jobpara {
+    font-size: 12px;
+    font-weight: 500;
+  }
+}

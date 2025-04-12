@@ -1,0 +1,164 @@
+.detaling-container {
+  background-color: black;
+  color: white;
+  height: 220vh;
+}
+
+.sub-detailing {
+  background-color: #272727;
+  color: white;
+  margin-top: 40px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.visited {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.visited a {
+  color: #6366f1;
+  font-size: 15px;
+}
+
+.desc {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.sub-skills {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.sub-skills img {
+  height: 50px;
+  width: 50px;
+}
+
+.skills {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 100px;
+  margin: 100px 0 100px 0;
+}
+
+.lifeAtCompany {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.lifeAtCompany img {
+  height: 300px;
+  width: 500px;
+  border-radius: 20px;
+}
+
+.wow {
+  margin: 50px;
+  padding: 50px;
+}
+
+.lifeAtCompany p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.whats {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  margin: 50px;
+  justify-content: space-evenly;
+}
+
+.heading {
+  margin-left: 50px;
+}
+
+.loadINdetails {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+}
+
+.faildetailsjobs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+@media screen and (max-width: 576px) {
+  .sub1 h1 {
+    font-size: 15px;
+  }
+  .sub-detailing {
+    padding: 5.3px;
+  }
+  .wow {
+    margin: 10px;
+    padding: 20px;
+  }
+  .detaling-container {
+    height: max-content;
+  }
+  .visited h1 {
+    font-size: 20px;
+  }
+  .skillsHead {
+    font-size: 20px;
+  }
+  .desc {
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .sub-skills {
+    gap: 0px;
+  }
+  .skills {
+    gap: 20px;
+    margin: 30px 0 30px 0;
+  }
+  .sub-skills img {
+    height: 35px;
+    width: 35px;
+  }
+  .sub-skills h1 {
+    font-size: 20px;
+  }
+  .lifeAtCompany {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .lifeAtCompany p {
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .lifeAtCompany img {
+    width: 300px;
+  }
+  .heading {
+    font-size: 40px;
+  }
+  .whats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5%;
+    margin: 10px;
+    justify-content: space-evenly;
+    margin-bottom: 0px;
+  }
+}

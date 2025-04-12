@@ -1,0 +1,47 @@
+.profile-container {
+  height: 250px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.failProfile {
+  height: 250px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadingViewOfprofile {
+  height: 250px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 567px) {
+  .profile-container {
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+  }
+  .sm-img {
+    height: 30px;
+    width: 30px;
+  }
+  .profile-container h1 {
+    font-size: 20px;
+  }
+  .profile-container p {
+    font-size: 13px;
+  }
+}
