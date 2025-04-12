@@ -8,7 +8,6 @@
   ```
 
 
-<details>
 <summary>Functionality added</summary>
 <br/>
 
@@ -100,9 +99,7 @@ The app must have the following functionalities
   | salaryRangeId |  String   |
   |     label     |  String   |
 
-</details>
 
-<details>
 
 <summary>API Requests & Responses</summary>
 
@@ -251,6 +248,5 @@ Returns a response containing the job details
 }
 ```
 
-</details>
 
 
